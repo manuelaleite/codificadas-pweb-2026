@@ -1,7 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/** Agora vou começar a pesquisar cores e estilizações que podem combinar com o site
+body {
+    background-color: #f5ebd0; /** em duvida **/
+    color: #0D0D0D;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #f2c9e0; /** em duvida **/
+    text-align: center;
+}
+
+header img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 3px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F2E0C9; /** em duvida **/
+    background-color: #86C2D9; /** em duvida **/
+    font-weight: bold;
+    font-size: 18px;
+    padding: 6px 15px;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: #0D0D0D; /** em duvida **/
+    background-color: #d96690; /** em duvida **/
+}
