@@ -126,3 +126,33 @@ h2 {
 #topo a:hover {
     color:#86C2D9; /** em duvida **/
 }
+
+footer {
+    background-color: #f2c9e0; /** em duvida **/
+    color: #0D0D0D; /** em duvida **/
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.redes-sociais img {
+    width: 24px;
+    height: 24px;
+    margin: 0px 6px;
+}
+
+footer .redes-sociais img:hover {
+    transform: scale(1.1);
+}
+
+.redes-sociais {
+    margin-top: 10px;
+}
+
+@media (max-width: 938px) {
+    img {
+        width: 100%;
+    }
+    .infos-pessoa {
+        flex-direction: column;
+    }
+}
