@@ -8,7 +8,7 @@
 
 body {
     background-color: #f5ebd0; /** em duvida **/
-    color: #0D0D0D;
+    color: #0D0D0D; /** em duvida **/
     font-family: "Cabin", sans-serif;
     font-weight: 400;
 }
@@ -37,7 +37,7 @@ nav a {
     color: #F2E0C9; /** em duvida **/
     background-color: #86C2D9; /** em duvida **/
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     padding: 6px 15px;
     border-radius: 15px;
 }
@@ -57,11 +57,6 @@ h1 {
     font-size: 2rem;
     margin-bottom: 15px;
     text-align: center;
-}
-
-h2 {
-    color: #d96690; /** em duvida **/
-    margin-bottom: 8px;
 }
 
 #descricao {
@@ -97,6 +92,11 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.infos-pessoa h2 {
+    color: #d96690; /** em duvida **/
+    margin-bottom: 8px;
 }
 
 .infos-pessoa p {
@@ -144,6 +144,7 @@ footer {
 }
 
 .redes-sociais img {
+    /** Salve icons que tenham proporção 1:1 **/
     width: 24px;
     height: 24px;
     margin: 0px 6px;
@@ -153,9 +154,11 @@ footer {
     transform: scale(1.1);
 }
 
+/** Estilizações para telas menores: **/
+
 @media (max-width: 800px) {
     header img {
-        width: 100%;
+        width: 100%; /** em duvida **/
     }
 
     .blocos-container {
@@ -163,10 +166,10 @@ footer {
     }
 
     .infos-pessoa {
-        text-align: center;
+        align-items: center;
     }
 
     .infos-pessoa img {
-        width: 100%;
+        width: 100%; /** em duvida **/
     }
 }
