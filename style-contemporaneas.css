@@ -83,7 +83,7 @@ h1 {
 }
 
 .blocos-container img {
-    width: 300px; /** em duvida ---> ajustar quando colocar todas as imagens da página **/
+    width: 250px; /** em duvida ---> ajustar quando colocar todas as imagens da página **/
     height: auto;
     border-radius: 5px; /** em duvida ---> ajustar quando colocar todas as imagens da página **/
 }
