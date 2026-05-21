@@ -49,18 +49,23 @@ nav a:hover {
 
 main {
     margin: 20px;
-    text-align: center;
+    
 }
 
 h1 {
     color: #d96690; /** em duvida **/
     font-size: 2rem;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 h2 {
     color: #d96690; /** em duvida **/
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+}
+
+#descricao {
+    text-align: center;
 }
 
 .container-principal {
@@ -74,29 +79,28 @@ h2 {
 
 .blocos-container {
     display: flex;
-    flex-direction: column;
-    /**
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 920px;
-    **/
+    gap: 15px;
+    align-items: center;
     background-color: #ecd9ae; /** em duvida **/
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px #807f7f; /** em duvida **/
 }
 
-.infos-pessoa {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.blocos-container img {
+    width: 300px; /** em duvida **/
+    height: auto;
+    border-radius: 5px; /** em duvida **/
 }
 
-.infos-pessoa img {
-    width: 200px; /** em duvida **/
-    height: auto;
-    box-shadow: 0px 0px 4px #5f3f3f; /** em duvida **/
-    border-radius: 5px; /** em duvida **/
+.infos-pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infos-pessoa p {
+    text-align: justify;
 }
 
 .infos-pessoa a {
@@ -104,7 +108,7 @@ h2 {
     color: #F2E0C9; /** em duvida **/
     background-color: #d96690; /** em duvida **/
     padding: 5px 12px;
-    margin: 3px 0px;
+    margin: 3px;
     border-radius: 15px;
     font-weight: 500;
 }
@@ -115,6 +119,7 @@ h2 {
 }
 
 #topo {
+    text-align: center;
     margin-top: 25px;
 }
 
@@ -134,25 +139,34 @@ footer {
     text-align: center;
 }
 
+.redes-sociais {
+    margin-top: 10px;
+}
+
 .redes-sociais img {
     width: 24px;
     height: 24px;
     margin: 0px 6px;
 }
 
-footer .redes-sociais img:hover {
+.redes-sociais img:hover {
     transform: scale(1.1);
 }
 
-.redes-sociais {
-    margin-top: 10px;
-}
-
-@media (max-width: 938px) {
-    img {
+@media (max-width: 800px) {
+    header img {
         width: 100%;
     }
-    .infos-pessoa {
+
+    .blocos-container {
         flex-direction: column;
+    }
+
+    .infos-pessoa {
+        text-align: center;
+    }
+
+    .infos-pessoa img {
+        width: 100%;
     }
 }
