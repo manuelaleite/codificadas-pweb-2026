@@ -58,15 +58,71 @@ h1 {
     margin-bottom: 15px;
 }
 
-.container-principal {
-    display: flex;
-    max-width: 920px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    /**
-    gap: 30px;
-    **/
+h2 {
+    color: #d96690; /** em duvida **/
+    margin-bottom: 5px;
 }
 
-/** retomando **/
+.container-principal {
+    display: flex;
+    max-width: 920px; /** em duvida **/
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 25px;
+}
 
+.blocos-container {
+    display: flex;
+    flex-direction: column;
+    /**
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 920px;
+    **/
+    background-color: #ecd9ae; /** em duvida **/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #807f7f; /** em duvida **/
+}
+
+.infos-pessoa {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.infos-pessoa img {
+    width: 200px; /** em duvida **/
+    height: auto;
+    box-shadow: 0px 0px 4px #5f3f3f; /** em duvida **/
+    border-radius: 5px; /** em duvida **/
+}
+
+.infos-pessoa a {
+    text-decoration: none;
+    color: #F2E0C9; /** em duvida **/
+    background-color: #d96690; /** em duvida **/
+    padding: 5px 12px;
+    margin: 3px 0px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.infos-pessoa a:hover{
+    color: #0D0D0D; /** em duvida **/
+    background-color: #86C2D9; /** em duvida **/
+}
+
+#topo {
+    margin-top: 25px;
+}
+
+#topo a {
+    color: #d96690; /** em duvida **/
+    text-decoration: none;
+}
+
+#topo a:hover {
+    color:#86C2D9; /** em duvida **/
+}
