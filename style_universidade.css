@@ -59,9 +59,79 @@ h1 {
     text-align: center;
 }
 
+#descricao {
+    text-align: center;
+}
 
-/** Faça aqui o código da página **/
+.formas-ingresso, .cursos-ime, .campi {
+    text-align: justify;
+}
 
+.formas-ingresso h2, .cursos-ime h2, .campi h2 {
+    color: #679fb6;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.formas-ingresso p, .cursos-ime p, .campi p {
+    margin: 6px 0;
+}
+
+.formas-ingresso h3 {
+    color: #031C21; /** trocar depois **/
+    margin: 8px 0;
+}
+
+.formas-ingresso a, .cursos-ime a, .campi a {
+    text-decoration: none;
+    color:#D96690;
+    font-weight: 500;
+}
+
+.formas-ingresso a:hover, .cursos-ime a:hover, .campi a:hover {
+    color: #679fb6;
+}
+
+.feira-profissoes {
+    background-color: #f5e8b5;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #888888; 
+}
+
+.feira-profissoes h2 {
+    color: #D96690;
+    margin-bottom: 14px;
+}
+
+.feira-profissoes p {
+    margin-bottom: 14px;
+}
+
+.feira-profissoes a {
+    text-decoration: none;
+    color: #f5f1f1;
+    background-color: #D96690;
+    padding: 5px 12px;
+    /**margin-top: 20px;**/
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.feira-profissoes a:hover{
+    color: #100409;
+    background-color: #679fb6;
+}
+
+ul, ol {
+    list-style-position: inside
+}
+
+li {
+    margin: 8px 0px;
+}
 
 #topo {
     text-align: center;
