@@ -59,7 +59,6 @@ h1 {
     text-align: center;
 }
 
-
 #descricao {
     text-align: center;
 }
@@ -70,8 +69,7 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 18px;
-    margin-top: 15px;
-    
+    margin: 20px 0;
 }
 
 li a {
@@ -93,13 +91,17 @@ li a:hover {
     text-align: justify;
 }
 
+.topicos p {
+    margin: 10px 0;
+}
+
 h2 {
     color: #679fb6;
     margin: 16px 0;
 }
 
 figure {
-    margin: 15px 0;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -149,7 +151,7 @@ footer {
 }
 
 .redes-sociais img {
-    /** Salve icons que tenham proporção 1:1 **/
+    /* Salve icons que tenham proporção 1:1 */
     width: 24px;
     height: 24px;
     margin: 0px 6px;
@@ -159,7 +161,7 @@ footer {
     transform: scale(1.1);
 }
 
-/** Estilizações para telas menores: **/
+/* Estilizações para telas menores: */
 
 @media (max-width: 800px) {
     header img {

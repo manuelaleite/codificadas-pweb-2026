@@ -89,7 +89,7 @@ h1 {
 
 .blocos-container p {
     margin-top: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .blocos-container a {
@@ -132,7 +132,7 @@ footer {
 }
 
 .redes-sociais img {
-    /** Salve icons que tenham proporção 1:1 **/
+    /* Salve icons que tenham proporção 1:1 */
     width: 24px;
     height: 24px;
     margin: 0px 6px;
@@ -142,7 +142,7 @@ footer {
     transform: scale(1.1);
 }
 
-/** Estilizações para telas menores: **/
+/* Estilizações para telas menores: */
 
 @media (max-width: 800px) {
     header img {
