@@ -7,10 +7,12 @@
 }
 
 body {
-    background-color: #fff7e6;
     color: #100409;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
+    background-image: url('imgs/fundo_tela.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -49,7 +51,6 @@ nav a:hover {
 
 main {
     margin: 20px;
-    
 }
 
 h1 {

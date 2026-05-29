@@ -7,17 +7,12 @@
 }
 
 body {
-    /*background-color: #fff7e6;*/
     color: #100409;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
-    /* teste */
-    background-image: url('imagem_fundo_teste.png');
+    background-image: url('imgs/fundo_tela.png');
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh;
 }
 
 header {
@@ -56,7 +51,6 @@ nav a:hover {
 
 main {
     margin: 20px;
-    
 }
 
 h1 {
