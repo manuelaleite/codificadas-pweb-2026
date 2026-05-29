@@ -73,11 +73,11 @@ h1 {
 }
 
 .formas-ingresso p, .cursos-ime p, .campi p {
-    margin: 6px 0;
+    margin: 10px 0;
 }
 
 .formas-ingresso h3 {
-    color: #031C21; /* trocar depois */
+    color: #984343;
     margin: 8px 0;
 }
 
@@ -95,18 +95,18 @@ h1 {
     background-color: #f5e8b5;
     text-align: center;
     padding: 20px;
-    margin: 20px 0;
+    margin: 25px 0;
     border-radius: 10px;
     box-shadow: 0px 0px 6px #888888; 
 }
 
 .feira-profissoes h2 {
-    color: #D96690;
-    margin-bottom: 14px;
+    color: #984343;
+    margin-bottom: 15px;
 }
 
 .feira-profissoes p {
-    margin-bottom: 14px;
+    margin-bottom: 15px;
 }
 
 .feira-profissoes a {
@@ -114,7 +114,6 @@ h1 {
     color: #f5f1f1;
     background-color: #D96690;
     padding: 5px 12px;
-    /*margin-top: 20px;*/
     border-radius: 15px;
     font-weight: 500;
 }
@@ -129,7 +128,7 @@ ul, ol {
 }
 
 li {
-    margin: 8px 0px;
+    margin: 10px 0px;
 }
 
 #topo {
