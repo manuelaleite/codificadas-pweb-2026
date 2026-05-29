@@ -68,9 +68,8 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 780px;
-    margin: 0 auto;
-    gap: 25px;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
+    gap: 30px;
 }
 
 .cursos {
@@ -83,7 +82,7 @@ h1 {
 
 .cursos h2 {
     color: #679fb6;
-    margin-bottom: 8px;
+    margin-bottom: 14px;
 }
 
 .cursos iframe {
@@ -95,7 +94,7 @@ h1 {
 }
 
 .cursos p {
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .cursos p a {
