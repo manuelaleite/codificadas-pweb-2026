@@ -131,20 +131,6 @@ li {
     margin: 10px 0px;
 }
 
-#topo {
-    text-align: center;
-    margin-top: 25px;
-}
-
-#topo a {
-    color: #D96690;
-    text-decoration: none;
-}
-
-#topo a:hover {
-    color:#679fb6;
-}
-
 footer {
     background-color: #fccce9;
     color: #100409;

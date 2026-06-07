@@ -4,8 +4,6 @@
         <title>CodificADAs - Curso PWeb</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Site sobre referências femininas na área da computação, além de como ingressar na USP e as diferentes áreas da computação. Esse site é parte do Curso de Programação Web das CodificADAs USP.">
-        <meta name="keywords" content="Mulheres na Computação, Mulheres, Computação, CodificADAs, IME, USP">
         <meta name="author" content="CodificADAs USP">
         <!-- Lembre-se sempre de colocar a página de estilização correta -->
         <link rel="stylesheet" href="style_historicas.css">
@@ -14,7 +12,7 @@
     <body>
         <header>
             <a href="index.html"><img src="imgs/codificadas_logo.png" alt="Logo CodificADAs USP"></a>
-            <nav>
+            <nav id="nav-header">
                 <a href="index.html">INÍCIO</a>
                 <a href="historicas.html">REFERÊNCIAS HISTÓRICAS</a>
                 <a href="contemporaneas.html">REFERÊNCIAS CONTEMPORÂNEAS</a>
@@ -25,12 +23,12 @@
         <main>
             <h1>Referências Históricas</h1>
             <p id="descricao">Conheça a história de mulheres inspiradoras que contribuíram no desenvolvimento da computação:</p>
-            <ul>
-                <li><a href="#ada">Ada Lovelace</a></li>
-                <li><a href="#grace">Grace Hopper</a></li>
-                <li><a href="#katherine">Katherine Johnson</a></li>
-                <li><a href="#hedy">Hedy Lamarr</a></li>
-            </ul>
+            <nav id="nav-historicas">
+                <a href="#ada">Ada Lovelace</a>
+                <a href="#grace">Grace Hopper</a>
+                <a href="#katherine">Katherine Johnson</a>
+                <a href="#hedy">Hedy Lamarr</a>
+            </nav>
             <section class="topicos">
 
                     <article id="ada">
@@ -62,7 +60,7 @@
                         <img src="imgs/katherine_johnson.png" alt="Foto de Katherine Johnson">
                         <figcaption><small>Foto de Katherine Johnson.</small></figcaption>
                     </figure>
-                    <p>A história de <strong>Katherine Johnson, Dorothy Vaughan e Mary Jackson</strong> simboliza a luta e a vitória. Juntas, elas romperam barreiras de raça e gênero como as brilhantes matemáticas conhecidas como <em>"computadoras humanas"</em> da NASA. <a href="https://pt.wikipedia.org/wiki/Dorothy_Vaughan" target="_blank">Dorothy Vaughan</a> foi a primeira supervisora negra na agência e uma especialista na linguagem de programação FORTRAN. <a href="https://pt.wikipedia.org/wiki/Mary_Jackson" target="_blank">Mary Jackson</a>, por sua vez, superou obstáculos e tornou-se a primeira engenheira negra da NASA em 1958. Em 2021, a sede da NASA em Washington foi renomeada em sua homenagem, um tributo monumental ao seu legado. Suas histórias e a de outras colegas foram retratadas no famoso filme <a href="https://pt.wikipedia.org/wiki/Hidden_Figures" target="_blank">"Estrelas Além do Tempo"</a>.</p>
+                    <p>A história de <b>Katherine Johnson, Dorothy Vaughan e Mary Jackson</b> simboliza a luta e a vitória. Juntas, elas romperam barreiras de raça e gênero como as brilhantes matemáticas conhecidas como <i>"computadoras humanas"</i> da NASA. <a href="https://pt.wikipedia.org/wiki/Dorothy_Vaughan" target="_blank">Dorothy Vaughan</a> foi a primeira supervisora negra na agência e uma especialista na linguagem de programação FORTRAN. <a href="https://pt.wikipedia.org/wiki/Mary_Jackson" target="_blank">Mary Jackson</a>, por sua vez, superou obstáculos e tornou-se a primeira engenheira negra da NASA em 1958. Em 2021, a sede da NASA em Washington foi renomeada em sua homenagem, um tributo monumental ao seu legado. Suas histórias e a de outras colegas foram retratadas no famoso filme <a href="https://pt.wikipedia.org/wiki/Hidden_Figures" target="_blank">"Estrelas Além do Tempo"</a>.</p>
                     <figure>
                         <img src="imgs/hidden_figures.jpeg" alt="Foto de Mary Jackson, Katherine Johnson e Dorothy Vaughan">
                         <figcaption><small>Foto mostrando, respectivamente, Mary Jackson, Katherine Johnson e Dorothy Vaughan na vida real e as atrizes que interpretaram seus papéis no filme "Estrelas Além do Tempo".</small></figcaption>
@@ -80,7 +78,6 @@
                 </article>
             
             </section>
-            <p id="topo"><a href="#">Clique aqui para voltar ao topo da página &#127872;</a></p>
         </main>
         <footer>
             <small>&copy; Codificadas USP</small>

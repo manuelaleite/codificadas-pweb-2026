@@ -64,7 +64,7 @@ h1 {
     text-align: center;
 }
 
-.container-principal {
+.menu-de-personalidades {
     display: flex;
     max-width: 920px;
     margin: 0 auto;
@@ -73,7 +73,7 @@ h1 {
     margin-top: 25px;
 }
 
-.blocos-container {
+.personalidade {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -83,7 +83,7 @@ h1 {
     box-shadow: 0px 0px 6px #888888; 
 }
 
-.blocos-container img {
+.personalidade img {
     width: 250px;
     height: auto;
     border-radius: 8px;
@@ -119,20 +119,6 @@ h1 {
     background-color: #679fb6;
 }
 
-#topo {
-    text-align: center;
-    margin-top: 25px;
-}
-
-#topo a {
-    color: #D96690;
-    text-decoration: none;
-}
-
-#topo a:hover {
-    color:#679fb6;
-}
-
 footer {
     background-color: #fccce9;
     color: #100409;
@@ -162,7 +148,7 @@ footer {
         width: 100%;
     }
 
-    .blocos-container {
+    .personalidade {
         flex-direction: column;
     }
 

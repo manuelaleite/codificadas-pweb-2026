@@ -64,7 +64,7 @@ h1 {
     text-align: center;
 }
 
-.container-principal {
+.menu-de-cursos {
     display: flex;
     flex-direction: column;
     max-width: 780px;
@@ -105,20 +105,6 @@ h1 {
 
 .cursos p a:hover {
     color: #679fb6;
-}
-
-#topo {
-    text-align: center;
-    margin-top: 25px;
-}
-
-#topo a {
-    color: #D96690;
-    text-decoration: none;
-}
-
-#topo a:hover {
-    color:#679fb6;
 }
 
 footer {

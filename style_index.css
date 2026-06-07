@@ -66,7 +66,7 @@ h1 {
     text-align: center;
 }
 
-.container-principal {
+.menu-tematico {
     display: flex;
     flex-direction: column;
     max-width: 780px;
@@ -75,7 +75,7 @@ h1 {
     margin-top: 25px;
 }
 
-.blocos-container {
+.temas {
     text-align: center;
     border-radius: 10px;
     padding: 20px;
@@ -83,17 +83,17 @@ h1 {
     box-shadow: 0px 0px 6px #888888; 
 }
 
-.blocos-container h2 {
+.temas h2 {
     color: #679fb6;
     margin-bottom: 8px;
 }
 
-.blocos-container p {
+.temas p {
     margin-top: 8px;
     margin-bottom: 16px;
 }
 
-.blocos-container a {
+.temas a {
     text-decoration: none;
     color: #f5f1f1;
     background-color: #D96690;
@@ -102,23 +102,9 @@ h1 {
     font-weight: 500;
 }
 
-.blocos-container a:hover {
+.temas a:hover {
     color: #100409;
     background-color: #679fb6;
-}
-
-#topo {
-    text-align: center;
-    margin-top: 25px;
-}
-
-#topo a {
-    color: #D96690;
-    text-decoration: none;
-}
-
-#topo a:hover {
-    color:#679fb6;
 }
 
 footer {
