@@ -86,11 +86,7 @@ h1 {
 }
 
 .cursos iframe {
-    border: none;
     border-radius: 10px;
-    /* Os valores de width e height seguem a proporção 16:9, comum em vídeos do YouTube */
-    width: 560px;
-    height: 315px;
 }
 
 .cursos p {
