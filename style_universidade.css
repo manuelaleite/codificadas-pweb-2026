@@ -62,17 +62,17 @@ h1 {
     text-align: center;
 }
 
-.formas-ingresso, .cursos-ime, .campi {
+section {
     text-align: justify;
 }
 
-.formas-ingresso h2, .cursos-ime h2, .campi h2 {
+section h2 {
     color: #679fb6;
     margin-top: 16px;
     margin-bottom: 10px;
 }
 
-.formas-ingresso p, .cursos-ime p, .campi p {
+section p {
     margin: 10px 0;
 }
 
@@ -81,46 +81,14 @@ h1 {
     margin: 8px 0;
 }
 
-.formas-ingresso a, .cursos-ime a, .campi a {
+section a {
     text-decoration: none;
     color:#D96690;
     font-weight: 500;
 }
 
-.formas-ingresso a:hover, .cursos-ime a:hover, .campi a:hover {
+section a:hover {
     color: #679fb6;
-}
-
-.feira-profissoes {
-    background-color: #f5e8b5;
-    text-align: center;
-    padding: 20px;
-    margin: 25px 0;
-    border-radius: 10px;
-    box-shadow: 0px 0px 6px #888888; 
-}
-
-.feira-profissoes h2 {
-    color: #984343;
-    margin-bottom: 15px;
-}
-
-.feira-profissoes p {
-    margin-bottom: 15px;
-}
-
-.feira-profissoes a {
-    text-decoration: none;
-    color: #f5f1f1;
-    background-color: #D96690;
-    padding: 5px 12px;
-    border-radius: 15px;
-    font-weight: 500;
-}
-
-.feira-profissoes a:hover{
-    color: #100409;
-    background-color: #679fb6;
 }
 
 ul, ol {
